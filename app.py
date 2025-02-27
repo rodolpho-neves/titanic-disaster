@@ -30,4 +30,6 @@ def predict():
     return jsonify(pd.concat([features, pd.DataFrame({'Survived': output}, index=range(len(output)))], axis=1).to_dict(orient='dict'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000, debug=True)
+
+    
