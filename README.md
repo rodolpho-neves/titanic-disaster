@@ -8,7 +8,7 @@ Neste repositório você terá acesso a uma forma de resolver o problema do Tita
 Um arquivo app.py implementa uma API em Flask para utilizar o modelo treinado. A API carrega o arquivo 'model-titanic-pipeline.pkl' e pode ser acessada em dois endpoints.
 
 ### URL base
-O endereço URL para acessar a API está configurado como padrão local `[http://127.0.0.1:5000]`.
+O endereço URL para acessar a API está configurado como padrão local `[http://127.0.0.1:8000]` (gunicorn).
 
 ### Endpoints
 O arquivo `usuario.ipynb` apresenta exemplos de utilização dos endepoints. São eles:
