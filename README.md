@@ -11,6 +11,7 @@ Um arquivo app.py implementa uma API em Flask para utilizar o modelo treinado. A
 O endereço URL para acessar a API está configurado como padrão local `[http://127.0.0.1:5000]`.
 
 ### Endpoints
+O arquivo `usuario.ipynb` apresenta exemplos de utilização dos endepoints. São eles:
 - 'GET /': para verificar o status da API e ir para a página inicial.
 - 'POST /predict': Para enviar dados conforme o modelo de entrada do Titanic, em formato de dicionário, com uma ou mais entradas. A resposta da chamada será um dicionário com os valores enviados e uma coluna adicional com a resposta do modelo. Exemplo de dado que pode ser enviado
 
